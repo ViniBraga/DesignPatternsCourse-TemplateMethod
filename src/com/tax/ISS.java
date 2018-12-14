@@ -3,7 +3,7 @@ import com.model.Budget;
 
 public class ISS implements Tax {
 
-	public double calcula(Budget budget) {
+	public double calculate(Budget budget) {
 		return budget.getValue() * .06;
 	}
 
